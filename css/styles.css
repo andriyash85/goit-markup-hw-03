@@ -26,8 +26,14 @@ body {
 }
 
 header {
-  margin-top: 24px;
-  border-bottom: 1px solid tomato;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.portfolio-dist {
+  margin-bottom: 94px;
 }
 .container {
   width: 1200px;
@@ -125,8 +131,6 @@ header {
   text-align: center; */
   letter-spacing: 0.06em;
   cursor: pointer;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .btn:hover,
@@ -259,9 +263,7 @@ header {
   padding-bottom: 60px;
 }
 .footer-list {
-  display: flex;
   margin-top: 20px;
-  align-content: center;
 }
 .footer-adr {
   font-size: 14px;
@@ -306,4 +308,35 @@ header {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+.filtr-list {
+  display: flex;
+  justify-content: center;
+}
+.filtr-item:not(:last-child) {
+  margin-right: 8px;
+}
+.filtr-btn {
+  height: 38px;
+  background: F5F4FA;
+  border-radius: 4px;
+}
+.distance {
+  margin-bottom: 50px;
+}
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+.portfolio-item {
+  flex-basis: calc(100% / 9 - 30px);
+  margin-left: 30px;
+}
+.portfolio-item-description {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section {
+  margin-bottom: 94px;
 }
