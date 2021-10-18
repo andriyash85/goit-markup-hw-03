@@ -27,11 +27,7 @@ body {
 
 header {
   margin-top: 24px;
-  margin-bottom: 25px;
-
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: #ececec;
+  border-bottom: 1px solid tomato;
 }
 .container {
   width: 1200px;
