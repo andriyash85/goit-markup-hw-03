@@ -328,14 +328,17 @@ header {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+  margin-bottom: -30px;
 }
 .portfolio-item {
   flex-basis: calc(100% / 9 - 30px);
   margin-left: 30px;
+  margin-top: 30px;
 }
 .portfolio-item-description {
   padding-top: 20px;
   padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
 }
 .section {
   margin-bottom: 94px;
