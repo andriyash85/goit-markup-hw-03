@@ -16,10 +16,18 @@ h6 {
 }
 
 ul {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
-
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: var(--first-text-color);
@@ -33,7 +41,7 @@ header {
   padding-bottom: 25px;
 }
 .portfolio-dist {
-  margin-bottom: 94px;
+  padding-bottom: 94px 0;
 }
 .container {
   width: 1200px;
@@ -41,18 +49,13 @@ header {
   padding-right: 15px;
   margin: 0 auto;
 }
+.section {
+  padding: 94px 0;
+}
 
 .filtr-btn {
   background: #f5f4fa;
   border-radius: 4px;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
 }
 
 .menu-link {
@@ -142,18 +145,16 @@ header {
   background-color: #2f303a;
 }
 .solutions {
-  width: 1600px;
-  height: 600px;
+  max-width: 1600px;
   background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
-  margin-bottom: 94px;
 }
 .slogan {
   width: 696px;
   height: 120px;
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -183,15 +184,12 @@ header {
   letter-spacing: 0.03em;
   color: var(--first-text-color);
 }
-.advant {
-  margin-bottom: 94px;
-}
+
 .advant-list {
   display: flex;
 }
 .advant-item {
   width: 270px;
-  height: 101px;
 }
 .between-item:not(:last-child) {
   margin-right: 30px;
@@ -213,7 +211,7 @@ header {
   color: var(--second-text-color);
 }
 .about {
-  margin-bottom: 94px;
+  padding-top: 0;
 }
 .title {
   margin-bottom: 50px;
@@ -229,7 +227,6 @@ header {
 }
 .team {
   background-color: #f5f4fa;
-  margin-bottom: 94px;
 }
 .team-list {
   display: flex;
@@ -259,7 +256,6 @@ header {
 }
 .footer-contacts {
   padding-top: 60px;
-  padding-left: 215;
   padding-bottom: 60px;
 }
 .footer-list {
@@ -312,6 +308,7 @@ header {
 .filtr-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .filtr-item:not(:last-child) {
   margin-right: 8px;
@@ -321,9 +318,7 @@ header {
   background: F5F4FA;
   border-radius: 4px;
 }
-.distance {
-  margin-bottom: 50px;
-}
+
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -331,15 +326,15 @@ header {
   margin-bottom: -30px;
 }
 .portfolio-item {
-  flex-basis: calc(100% / 9 - 30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .portfolio-item-description {
   padding-top: 20px;
+  padding-left: 24px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
-}
-.section {
-  margin-bottom: 94px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
