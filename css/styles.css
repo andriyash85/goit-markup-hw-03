@@ -32,6 +32,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--first-text-color);
 }
+address {
+  font-style: normal;
+}
 
 header {
   width: 100%;
